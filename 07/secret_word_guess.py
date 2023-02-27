@@ -55,8 +55,11 @@ while tries > 0:
     # end of Loop
 
 if guessed:
+    print()
     print("Congratulations! You guessed it !")
+    print()
 
 else:
     print()
     print("You lose")
+    print()
