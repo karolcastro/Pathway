@@ -1,0 +1,17 @@
+first_name = input("What is your first name? ")
+last_name = input("What is your last name? ")
+email_address = input("What is your email address? ")
+phone_number = input("What is your phone number? ")
+job = input("What is your job title? ")
+id_number = input("What is your id number? ")
+
+print("\nThe ID Card is: ")
+print("_______________________________")
+print(f"{last_name.upper()}, {first_name.capitalize()}")
+print(job.title())
+print(f"ID: {id_number}")
+print()
+print(email_address.lower())
+print(phone_number)
+print("_______________________________")
+
