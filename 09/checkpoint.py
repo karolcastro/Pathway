@@ -1,5 +1,4 @@
 friends = []
-
 new_friends = ""
 
 while new_friends != "end":
