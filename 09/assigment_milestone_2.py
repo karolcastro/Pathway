@@ -17,8 +17,10 @@ while action != 5:
         carts.append(add_item)
         carts.append(price)
         print(f"'{add_item}' has been added to the cart.")
+        
+        
     else:
-        add_item == "5"
+        action == 5
         action = int(input("Please enter an action:"))
         
 
@@ -27,3 +29,4 @@ while action != 5:
         print()
         print("cart")
         break
+    
