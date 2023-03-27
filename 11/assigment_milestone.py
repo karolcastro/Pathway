@@ -1,6 +1,4 @@
 #outra maneira de abrir o arquivo sem precisar colcoar a linha de comando para fechar o arquivo
-import math
-
 
 with open('/Users/karolinydecastro/Documents/Python-Curso/11/life-expectancy.csv') as file_to_open:
     next(file_to_open)
